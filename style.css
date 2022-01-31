@@ -2,56 +2,76 @@ body {
     color: lightslategray;
     background-color: lightyellow;
     font-family: sans-serif;
+    margin: 0px;
 }
 .container {
-color: seagreen;
-width: 33%;
-display: inline-block;
-background-color: sandybrown;
-text-align: center;
+    margin-top: 20px;
+    color: seagreen;
+    width: 32%;
+    display: inline-block;
+    background-color: sandybrown;
+    text-align: center;
 }
 .container:hover {
-color: white;
-font-weight: normal;
-background-color: rgba(95.69, 64.31, 37.65, 0.5);
+    color: white;
+    font-weight: normal;
+    background-color: rgba(95.69, 64.31, 37.65, 0.5);
 }
 h2 {
-background-color: tomato;
-color: white;
-text-align: center;
+    background-color: tomato;
+    color: white;
+    text-align: center;
 }
 li {
-list-style-type: none;
+    list-style-type: none;
 }
 img {
-border-radius: 50%;
-width: 120px;
-height: 120px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
 }
 button {
-color: white;
-font-weight: bolder;
-background: tomato;
-padding: 20px 25px;
-border: none;
-border-radius: 10px;
-margin-left: 45%;
-cursor: pointer;
-outline: none;
+    color: white;
+    font-weight: bolder;
+    background: tomato;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 45%;
+    cursor: pointer;
+    outline: none;
 }
 button:hover {
-font-size: 20px;
-background-color: rgba(255, 0, 0, 0.6);
+    padding: 25px 30px;
+    font-size: 14px;
+    background-color: rgba(255, 0, 0, 0.6);
 }
 .button {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
+}
+header {
+    padding: 10px;
+    text-align: right;
 }
 header a {
-color: red;
-font-size: 20px;
-text-decoration: none;
-background-color: none;
-font-weight: bolder;
-margin: 20px;
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: none;
+    font-weight: bolder;
+    margin: 30px;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 4px 5px;
+    margin: auto 0px 0px 0px;
+}
+footer p {
+    padding-top: 4px 5px;
+}
+.box {
+    width: 97%;
+    margin: auto;
 }
